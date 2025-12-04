@@ -1,0 +1,9 @@
+torch>=2.0
+numpy>=1.24
+pandas>=1.5
+scipy>=1.10
+pykalman>=0.9.7
+pyzk>=0.4.3          # zk-SNARK 封装（Groth16）
+web3>=6.0
+pyyaml>=6.0
+tqdm

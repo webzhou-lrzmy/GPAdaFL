@@ -1,0 +1,21 @@
+# 公共配置
+K: 20                 # 客户端数
+T: 200                # 总轮次
+E: 3                  # 本地 epoch
+B: 32                 # 本地 batch
+lr: 0.01
+H: 5                  # LSTM 历史窗
+r: 10                 # 潜空间维
+lambda_: 1.0          # 相似度放大系数
+beta: 0.6             # 质量滑动系数
+W: 10                 # 滑窗大小
+
+# 隐私预算
+epsilon_total: 10
+epsilon_min: 0.05
+delta: 1.0e-5
+sigma_max: 5.0
+
+# 区块链
+rpc_url: "http://127.0.0.1:8545"
+contract_address: ""   # 部署后回填
